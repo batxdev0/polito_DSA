@@ -1,0 +1,29 @@
+
+stacks are vertical
+
+it goes from bottom to top from index 0 to 4;
+
+your first in will be first out.
+
+
+how to create a struct of the stacks
+
+
+struct stack {
+    int size;
+    int top;
+    int *s;
+
+}
+
+int main() {
+    struct stack st;
+    print("Enter size of the stack");
+    scanf("%d", &st.size);
+    st.s = new int[st.size];
+    st.top = -1;
+}
+
+
+// empty condition equals to  top =  -1;
+// full condition equals to top = size = -1;

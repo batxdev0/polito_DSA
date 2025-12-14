@@ -1,0 +1,12 @@
+infix to postfix
+
+
+
+1.Infix:: Operand operator Operand
+    eg: a+b
+
+2.prefix: opt opnd opnd 
+    eg: +ab;
+
+3.postfix: opend opend opt.
+    eg: ab+

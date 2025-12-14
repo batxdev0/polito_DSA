@@ -1,0 +1,29 @@
+##
+
+linked list in the C containt 2 param. int he nodes
+
+->  Node [1.Data 2.Next] so:
+
+Struct Node {
+    int data; it's 2 bytes
+    Struct Node * next; it's 2 bytes so in ttal 4 bytes
+};
+
+
+Struct Node *p;
+ - Malloc'un önündeki bu hafıza adresini atadığımız pointer
+ türüne göre yazılır.
+ 
+- Malloc'Un içindeki O an da depolamak isteidğiniz verinin türüne
+ ve dolayısıyla boyutuna göre yazılır.
+
+
+p = (struct Node*)malloc(sizeof(struct Node))
+
+p = new Node;
+
+-> data = 10;
+
+p -> next = 0;
+
+

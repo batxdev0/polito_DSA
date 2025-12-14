@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "Head.C": "cpp",
+        "TreeRecursion.C": "cpp",
+        "SumOfNational.C": "cpp",
+        "factorailRecursion.C": "cpp",
+        "ReverseArray.C": "cpp",
+        "tempCodeRunnerFile.C": "cpp",
+        "implementations_of_stack_using_array.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

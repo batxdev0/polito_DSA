@@ -1,0 +1,6 @@
+
+
+empty -> top == NULL
+
+ful -> Node * t = new Node -> if (t =  NULL);
+
