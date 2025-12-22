@@ -1,0 +1,80 @@
+
+
+they are similar to binary tree
+
+the max height is equasl to O(logn)
+
+it's not for searching purpose
+
+MAX HEAP: 
+    30
+ 20    15
+5 10  12 6
+
+MİN HEAP:
+      5
+   15   12
+ 20 25   30 18
+
+
+#INSERTION
+
+ın the heap we just insert it to the 'Next free space';
+we don't directly compute for lchild or rchild
+
+
+if our new key is greater than all
+
+max heap before:
+MAX HEAP: 
+    30
+ 20    15
+5 10  12 6
+
+max heap after
+        40
+    30      15
+   20 10   12 6
+   5
+
+so basically we comparing not from root to child but child to root.
+
+            40
+        35      15
+      30   10   12  6
+    5   20
+
+index'de şöyle ilerler
+ MAX HEAP: 
+    30(1)
+ 20(2)    15(3)
+5(4) 10(5)  12(6) 6(7)
+
+T =  30 20 15 5 10 12 6 _ _ ....
+
+#how to create a heap?
+
+void createHeap() {
+    int A[] = {0,10,20,30,25,5,40,35}
+    int i;
+    for(i = 2; i<=?; i++) {
+        insert(a,i);
+
+    }
+}
+
+# delete operation of binary HEAP
+
+BH:
+    40
+  35   30
+5  10 25  5
+
+    0   1 2  3  4  5  6
+A = 40,35,30,15,10,25,5
+
+INSERT İS A MAX HEAP 
+
+DELETE İS A MİN HEAP
+
+

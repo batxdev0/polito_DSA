@@ -26,6 +26,7 @@ void Insert(int key) {
         root = p;
         return;
     }
+    1
     while(t != NULL) {
         r = t;
         if(key<t->data) {
