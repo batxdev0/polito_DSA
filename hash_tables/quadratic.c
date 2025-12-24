@@ -10,6 +10,7 @@ int probe(int H[], int key) {
     int index = hash(key);
     int i = 0;
     // find the earliest most empty value;
+    
     while(H[index+i]%SIZE != 0) {
         i++; //increment one
         i = i*i; // double the value
