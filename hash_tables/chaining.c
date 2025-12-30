@@ -22,9 +22,10 @@ void SortedInsert(struct Node **H, int x ){
             q = p;
             p = p ->next;
         }
-        if(p == first) {
-            t ->next = first;
-            q->next = t;
+        // sonradan  gelen bir değerin daha küçk olması durumu
+        if(q == NULL) {
+            t->next = *H;
+            *H = t;
 
         }
     }

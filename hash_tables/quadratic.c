@@ -21,7 +21,7 @@ int probe(int H[], int key) {
     
 }
 
-
+ 
 
 void Insert(int H[], int key) {
     int index = hash(key); // get the index;

@@ -127,7 +127,7 @@ void Insert(struct Node *p, int index, int x) {
         first = t;
     } else {
         for(int i = 0; i<index -1; i++) {
-            // önce p kadar ilerlettir
+            // önce p kadar ilerlettir2.i;
             p = p ->next;
             
         }
@@ -144,6 +144,7 @@ int main() {
     int A[] = {1,5,8,20,21};
     create(A,5);
     Display(first);
+    Insert(first,1,2);
 
 
     return 0;

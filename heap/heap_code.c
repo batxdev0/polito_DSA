@@ -39,7 +39,7 @@ int Delete(int A[], int n) {
         if(A[i] < A[j]) {
             temp = A[i];
             A[i] = A[j];
-            A[j] = temp;
+            A[j] = temp;ö
             i = j;
             j = 2*j;
         } else {
