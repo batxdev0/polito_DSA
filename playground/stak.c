@@ -45,7 +45,7 @@ void push(struct Stack *st, int x) {
 
 void display(struct Stack *st) {
 
-    for(int i = 0; i<st->size; i++) {
+    for(int i = 0; i<=st->top; i++) {
         printf("%d",st->S[i]);
     }
 }
