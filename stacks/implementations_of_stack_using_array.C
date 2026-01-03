@@ -43,6 +43,7 @@ int pop(struct Stack * st) {
         
     } else {
         x = st->S[st->top--];
+        st->size--;
 
     }
     return x;
@@ -77,6 +78,7 @@ int stackTop(struct Stack st) {
 
 }
 
+
 int main() {
 
     struct Stack st;
@@ -85,6 +87,7 @@ int main() {
     push(&st,20);
     push(&st,30);
     push(&st,40);
+    
 
     printf("%d\n",peek(st,3));
     Display(&st);
