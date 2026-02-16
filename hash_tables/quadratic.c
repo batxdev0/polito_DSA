@@ -30,11 +30,12 @@ void Insert(int H[], int key) {
     if(H[index] != 0) {
         //find the new quadratic possible index
         index_1 = probe(H,key);
+        index = index_1;
 
     }
-    index = index_1;
     H[index] = key;
 }
+
 
 
 
@@ -44,13 +45,15 @@ int main() {
 
     int HT[10] = {0};
 
-    Insert(HT,12);
-    Insert(HT,22);
-    Insert(HT,32);
+    Insert(HT,26);
+    Insert(HT,15);
+    Insert(HT,18);
+    Insert(HT,18);
+    Insert(HT,15);
 
 
 
 
 
-
+    return 0;
 }

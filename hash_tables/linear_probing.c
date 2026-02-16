@@ -39,10 +39,12 @@ int Search(int H[], int key) {
 int main() {
     int HT[10] = {0};
 
-    Insert(HT,12);
-    Insert(HT,25);
-    Insert(HT,35);
-    Insert(HT,36);
+    Insert(HT,26);
+    Insert(HT,15);
+    Insert(HT,18);
+    Insert(HT,18);
+    Insert(HT,15);
+
 
     printf("Key found at %d\n",Search(HT,35));
 
